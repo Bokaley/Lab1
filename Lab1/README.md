@@ -1,8 +1,5 @@
 Лабораторная работа 1: Оптимизация рациона питания
-https://img.shields.io/badge/Python-3.8+-blue.svg
-https://img.shields.io/badge/PuLP-2.6+-green.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://colab.research.google.com/assets/colab-badge.svg
+
  Описание проекта
 Решение задачи оптимизации дневного рациона питания с минимальной стоимостью при соблюдении норм потребления питательных веществ. Проект включает реализацию на Python с использованием библиотеки PuLP и решение в Excel/Google Sheets.
 
@@ -122,4 +119,5 @@ sensitivity_results = analyze_price_sensitivity(
     base_prices=custom_prices,
     variations=0.1  # ±10%
 )
+
 
